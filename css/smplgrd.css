@@ -1,0 +1,129 @@
+@import url(http://fonts.googleapis.com/css?family=Wellfleet|Molle:400italic|Great+Vibes|Pacifico|Leckerli+One|Lily+Script+One|Droid+Serif:400,700);
+body {
+ /* background-color: #29824C;*/
+  color: #444444;
+  font-family: "Droid Serif";
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+}
+img { max-width: 100%; }
+.w {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin: 0 auto;
+  max-width: 1000px;
+  *zoom: 1;
+}
+.w:before,
+.w:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.w:after { clear: both; }
+
+.r {
+    width: 100%;
+    *zoom: 1;
+}
+.r:before,
+.r:after {
+  display: table;
+  line-height: 0;
+  content: "";
+}
+.r:after { clear: both; }
+
+.r [class*="c-"] {
+    display: block;
+    float: left;
+    min-height: 30px;
+    padding: 15px 0;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+.r [class*="c-"]:first-child { margin-left: 0; }
+
+h1, h2, h4 {
+  font-family: "Wellfleet";
+  line-height: 1.1;
+  margin: 0;
+}
+h1 { font-size: 64px; }
+h4 { color: #29824C; }
+p { margin: 0 0 10px; }
+.about, .banner {
+  padding: 20px 0;
+  text-align: center;
+}
+
+.about { border-bottom: 1px #dddddd solid; }
+.about h1 { margin: 20px 0; }
+
+.banner { 
+  background-color: #29824C;
+  color: #DBCF7F;
+  font-size: 18px;
+  text-align: center;
+}
+.banner h1 {
+  text-shadow: 2px 2px #000000;
+  text-transform: uppercase;
+}
+.banner h2 {
+  font-family: "Leckerli One";
+  font-size: 32px;
+  font-weight: normal;
+}
+.banner ul, .banner p {
+  font-family: "Wellfleet";
+  margin: 0;
+  padding: 0;
+}
+.banner p.script {
+  font-family: "Leckerli One";
+}
+
+.content {
+  margin: 0 auto;
+  padding: 30px 0;
+  max-width: 800px;
+}
+
+.content h4 { margin: 10px 0 5px 0; }
+
+/* icon reset */
+.icon-ok-sign { color: #29824C; }
+.icons-ul { margin-left: 0; }
+
+.pull-right {
+    float: none;
+    margin-right: 0;
+  }
+  .pull-left {
+    float: none;
+    margin-left: 0;
+  }
+
+@media (min-width: 769px) {
+  .content .r [class*="c-"] {
+    padding: 0 30px;
+  }
+  .r .c-2-1 { width: 50%; }
+  .pull-right {
+    float: right;
+    margin-right: 20px;
+  }
+  .pull-left {
+    float: left;
+    margin-left: 20px;
+  }
+}
+
+@media (max-width: 450px) {
+  h1 { font-size: 32px; }
+  .banner h2 { font-size: 24px; }
+}
