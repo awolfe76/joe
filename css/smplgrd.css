@@ -99,7 +99,10 @@ p { margin: 0 0 10px; }
   .content .r [class*="c-"] {
     padding: 0 30px;
   }
-  .r .c-2-1 { width: 50%; }
+  .r .c-2-1 {
+    width: 50%;
+    *width: 49.999375%;
+  }
 }
 
 @media (max-width: 450px) {
