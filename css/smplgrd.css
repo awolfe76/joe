@@ -2,7 +2,7 @@
 body {
   background-color: #f5f5f5;
   color: #444444;
-  font-family: "Droid Serif";
+  font-family: "Droid Serif", Georgia, serif;
   font-size: 16px;
   line-height: 1.5;
   margin: 0;
@@ -101,7 +101,7 @@ p { margin: 0 0 10px; }
   }
   .r .c-2-1 {
     width: 50%;
-    *width: 49.999375%;
+    *width: 49.9993%;
   }
 }
 
