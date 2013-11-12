@@ -98,6 +98,7 @@ p { margin: 0 0 10px; }
 @media (min-width: 769px) {
   .r [class*="c-"] {
     margin: 0 2.5%;
+    *margin: 0 2.48%;
   }
   .r .c-2-1 {
     width: 45%;
