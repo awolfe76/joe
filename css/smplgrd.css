@@ -8,11 +8,13 @@ body {
   margin: 0;
 }
 img { max-width: 100%; }
+
+/* grid */
 .w {
   padding-right: 15px;
   padding-left: 15px;
   margin: 0 auto;
-  max-width: 800px;
+  max-width: 1000px;
   *zoom: 1;
 }
 .w:before,
@@ -36,16 +38,14 @@ img { max-width: 100%; }
 .r:after { clear: both; }
 
 .r [class*="c-"] {
-    display: block;
-    float: left;
-    min-height: 30px;
-    padding: 15px 0;
-    width: 100%;
-    -webkit-box-sizing: border-box;
-       -moz-box-sizing: border-box;
-            box-sizing: border-box;
-  }
-.r [class*="c-"]:first-child { margin-left: 0; }
+  display: block;
+  float: left;
+  min-height: 30px;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
 
 h1, h2, h4 {
   font-family: "Wellfleet";
@@ -96,12 +96,12 @@ p { margin: 0 0 10px; }
 .icons-ul { margin-left: 0; }
 
 @media (min-width: 769px) {
-  .content .r [class*="c-"] {
-    padding: 0 30px;
+  .r [class*="c-"] {
+    margin: 0 2.5%;
   }
   .r .c-2-1 {
-    width: 50%;
-    *width: 49.9993%;
+    width: 45%;
+    *width: 44.998%;
   }
 }
 
