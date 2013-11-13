@@ -94,7 +94,7 @@ p { margin: 0 0 10px; }
 
 /* icon reset */
 .icon-ok-sign { color: #29824C; }
-.icons-ul { margin-left: 0; }
+.icons-ul { margin-left: 20px; }
 
 @media (min-width: 769px) {
   .r [class*="c-"] {
