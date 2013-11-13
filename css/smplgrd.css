@@ -41,7 +41,6 @@ img { max-width: 100%; }
   display: block;
   float: left;
   min-height: 30px;
-  width: 100%;
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
           box-sizing: border-box;
@@ -94,7 +93,12 @@ p { margin: 0 0 10px; }
 /* icon reset */
 .icon-ok-sign { color: #29824C; }
 .icons-ul { margin-left: 0; }
-
+@media (max-width: 768px) {
+  .r .c-2-1, .r .c-2-2 {
+    width: 100%;
+    *width: 99.98%;
+  }
+}
 @media (min-width: 769px) {
   .r [class*="c-"] {
     margin: 0 2.5%;
@@ -103,6 +107,10 @@ p { margin: 0 0 10px; }
   .r .c-2-1 {
     width: 45%;
     *width: 44.98%;
+  }
+  .r .c-2-2 {
+    width: 100%;
+    *width: 99.98%;
   }
 }
 
